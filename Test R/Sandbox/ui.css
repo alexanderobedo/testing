@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* #region placeholder CSS*/
+.placeholder_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder_item {
+    height: 20px;
+    width: 55%;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: placeholderAnimate;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eee 2%, #ddd 18%, #eee 33%);
+    background-size: 1300px;
+    border-radius: 2px;
+}
+button.swal2-confirm.remove-pickup-items.swal2-styled{
+    background: #c42727;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    width: 95%;
+    margin-bottom: 0;
+}
+button.swal2-cancel.swal2-styled{
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    width: 95%;
+}
+.cs-address-loader-hldr{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    padding-top: 20px;
+}
+.cs-address-loader {
+    animation: spin 1s infinite linear;
+    border: 2px solid rgba(30, 30, 30, 0.5);
+    border-left: 3px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+.placeholder_item:first-of-type {
+    margin-bottom: 23px;
+}
+
+@keyframes placeholderAnimate {
+    0%{ background-position: -650px 0; }
+    100%{ background-position: 650px 0; }
+}
+/* #endregion placeholder CSS*/
+
+/* #region initial message */
+.initial_cnc_message p {
+    
+}
+/* #endregion initial message */
+
+
+div[data-product-option-change] .unavailable {
+    pointer-events: none;
+}
+
+.clickandcollect-header p{
+    color: #ffffff!important;
+}
+body .clickandcollect-header .click-and-collect-location-icon,
+.clickandcollect-header .click-and-collect-arrow-right-icon {
+    fill: #ffffff!important;
+}
+.clickandcollect-header .click-and-collect-set-store {
+    color: #ffffff;
+}
+.storesDropdown .stores{
+    margin-left: 0;
+}
+
+.storesDropdown .content{
+    max-width: none;
+    padding: 0;
+    margin: 0 auto;
+    color: #000;
+    background: transparent;
+}
+.storesDropdown .title{
+    color: #e2383f;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: 0 20px;
+}
+body .click-and-collect-dropdown{
+   border-top-color: #e2383f!important;
+}
+.storesDropdown .search-input input {
+    height: 50px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid #b4b4b4;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    border-radius: 0;
+}
+.storesDropdown .icon.use-my-current-loc{
+    position: absolute;
+    left: 20px;
+}
+.storesDropdown span.text.useCurrentLocation{
+    padding-left: 50px;
+}
+.storesDropdown .search-input svg{
+    top: 29px;
+    fill: #b4b4b4;
+    right: 40px;
+}
+.storesDropdown .stores .store{
+    padding: 20px;
+}
+.storesDropdown .search-input{
+    padding: 0 20px;
+}
+.storesDropdown.isOpen{
+    padding: 15px 0;
+    padding-top: 20px;
+}
+.storesDropdown .close{
+    padding-right: 25px;
+}
+.storesDropdown .stores .store .click-and-collect-primary-button{
+    width: 50%;
+    font-size: 15px;
+    padding: 6px;
+    float: left;
+    background-color: black !important;
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    color: #fff;
+}
+.storesDropdown .stores .store .showDetails{
+    font-size: 12px;
+    float: right;
+    padding: 12px 0px;
+    background-color: white;
+    width: 48%;
+    text-align: right;
+    border: none;
+}
+.storesDropdown .stores .store .address{
+    line-height: 24px;
+    font-family: 'Roboto';
+    color: #2d2d2d;
+    font-size: 14px;
+}
+.storesDropdown .stores .store .storeDetails .details .address span.info p, .storesDropdown .stores .store .storeDetails .details .address span.info a, .storesDropdown .stores .store .storeDetails .details .phone span.info p, .storesDropdown .stores .store .storeDetails .details .phone span.info a{
+    font-weight: normal;
+    font-size: 15px;
+}
+.storesDropdown .address label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+.storesDropdown .storeMap {
+    padding-top: 15px;
+}
+.storesDropdown .storeDetails .details .address span.info p, .storesDropdown .storeDetails .details .address span.info a, .storesDropdown .storeDetails .details .phone span.info p, .storesDropdown .storeDetails .details .phone span.info a {
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.storesDropdown .stores .store .storeDetails .details .phone span.info a,
+.storesDropdown .myStore .storeDetails .details .phone span.info a {
+    color: #e2383f;
+    margin-bottom: 5px;
+}
+.storesDropdown .stores .store .storeDetails .details .phone span.info a:focus{
+    outline: none!important;
+}
+.storesDropdown .myStore{
+    padding: 20px;
+    border-top: 1px solid #b4b4b4;
+    padding-bottom: 45px;
+    background: #efefef;
+}
+.storesDropdown .myStore .showDetails{
+    cursor: pointer;   
+}
+.storesDropdown .myStore .storeAddress{
+    line-height: 24px;
+    font-family: 'Roboto';
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.storesDropdown .myStore span.currentIndicator{
+    font-size: 14px;
+}
+
+.storesDropdown .close svg{
+    cursor: pointer;
+    height: 15px;
+}
+
+.storesDropdown .myStore .storeName,
+.storesDropdown .stores .store .name{
+    font-size: 20px;
+}
+.storesDropdown .availability {
+    font-weight: normal!important;
+}
+/* product page */
+.storeSection > span {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+.cnc-flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.productView .storeSection {
+    margin-left: 0;
+    border-top: 1px solid #b4b4b4;
+    padding: 30px 0;
+    border-bottom: 1px solid #b4b4b4;
+}
+.productView .storeSection .setStoreWrapper {
+    margin-left: 0;
+    width: 100%;
+}
+.productView .storeSection .availability.available svg, .productView .storeSection .availability.alwaysAvailable svg, .productView .storeSection .onlineAvailability.available svg, .productView .storeSection .onlineAvailability.alwaysAvailable svg{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: -20px;
+    top: -2px;
+}
+.productView .storeSection .availability, .productView .storeSection .onlineAvailability{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.productView .storeSection .chooseStore .title{
+    font-weight: 600;
+    font-size: 15px;
+    color: #e2383f;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+.productView .storeSection .setStoreWrapper .myStore .storeAddress{
+    font-size: 15px;
+    color: #2d2d2d;
+    font-family: 'Roboto';
+    display: inline-block;
+}
+.productView .storeSection .setStoreWrapper .text.time{
+    font-size: 15px;
+    color: #2d2d2d;
+    font-family: 'Roboto';
+}
+.productView .storeSection .setStoreWrapper .text.time:before{
+    content: "| ";
+}
+.productView .storeSection .setStoreWrapper .myStore .storeName{
+    font-weight: bold;
+    font-size: 15px;
+    color: #2d2d2d;
+    font-family: 'Roboto';
+    display: block;
+}
+.productView .storeSection .availability.available, .productView .storeSection .availability.alwaysAvailable, .productView .storeSection .onlineAvailability.available, .productView .storeSection .onlineAvailability.alwaysAvailable{
+    color: #2d2d2d!important;
+}
+.productView .storeSection .alternativeStores{
+    margin-top: 10px;
+    margin-left: 0;
+}
+.productView .storeSection .alternativeStores .allAltStores{
+    float: none;
+    display: block;
+    margin: 0;
+}
+.productView .storeSection .alternativeStores .allAltStores .store{
+    margin-right: 5px;
+    display: inline-block;
+}
+.productView .storeSection .alternativeStores .allAltStores .store:first-child {
+    margin-left: 5px;
+}
+.productView .storeSection .availability.notAvailable svg, .productView .storeSection .onlineAvailability.notAvailable svg{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    left: -20px;
+    top: -5px;
+}
+body #click-and-collect-checkout-pickup-button, body #click-and-collect-checkout-delivery-button {
+    background: transparent!important;
+    border-color: #e2383f!important;
+    padding: 0;
+   border-radius: 15px;
+   font-size: 14px;
+}
+body #click-and-collect-checkout-pickup-button[disabled], body #click-and-collect-checkout-delivery-button[disabled] {
+    color: #ffffff!important;
+    background-color: #e2383f!important;
+    border-color: #e2383f;
+}
+#pickUpSection > h1 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 22px;
+}
+#pickUpSection .storeSection{
+border: 0;
+box-shadow: none;
+}
+#pickUpSection .storeSection .row{
+padding: 20px;
+border: 1px solid #979797;
+}
+#pickUpSection .storeSection .setStoreWrapper .storeDetails .details .address .info > p, #pickUpSection .storeSection .setStoreWrapper .storeDetails .details .phone .info > a {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+#pickUpSection .storeSection .setStoreWrapper .storeDetails .details .address .info > p .close, #pickUpSection .storeSection .setStoreWrapper .storeDetails .details .phone .info > p .close, #pickUpSection .storeSection .setStoreWrapper .storeDetails .details .address .info > p .open, #pickUpSection .storeSection .setStoreWrapper .storeDetails .details .phone .info > p .open{
+	font-size: 14px;
+	font-weight: normal;
+}
+#pickUpSection .setStoreWrapper {
+    width: 100%;
+}
+#pickUpSection .address label,
+#pickUpSection .phone label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+#pickUpSection .storeSection .setStoreWrapper .myStore .storeAddress {
+    font-size: 14px;
+    color: #000;
+}
+#pickUpSection .storeSection .setStoreWrapper .myStore .storeName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Roboto';
+}
+#pickUpSection .chooseStore .title {
+    display: inline;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: auto;
+}
+#pickUpSection .storeSection .row .columns.large-6.medium-12:last-of-type {
+    border-left: 1px solid #979797;
+}
+#pickUpSection label.form-label {
+    font-weight: normal!important;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #000000;
+}
+div#datePickerSectionWrapper p {
+    font-weight: normal!important;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+div#datepicker-container input {
+    background: transparent;
+}
+#pickUpSection .confirmPickup{
+    background: #e2383f;
+    border-color: #e2383f;
+}
+.productView .storeSection .onlineAvailability.notAvailable:before{
+content: none;
+}
+.productView .storeSection .onlineAvailability{
+    margin-bottom: 20px;
+}
+.productView .storeSection .variantAvailability{
+    margin-top: 1rem;
+}
+
+
+span.current-stock {
+    background-color: #5e8e3e;
+    color: #fff;
+    padding: 6px 8px;
+    margin-left: 12px;
+}
+
+
+@media(max-width: 800px){
+    .productView .productView-details .storeSection{
+        margin: 0!important;
+    }
+#pickUpSection .storeSection .row .columns.large-6.medium-12:last-of-type{
+border-left: 0px;
+}
+}
+@media(max-width: 400px){
+    .cnc-flex-wrap{
+        display: block;
+    }
+    .productView .storeSection .availability, .productView .storeSection .onlineAvailability{
+        margin-bottom: 20px;
+    }
+}
+
+
+.storeSection.sdd-section{
+    margin-top: 0;
+    border-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.storeSection.sdd-section .section-content{
+    padding: 15px 0;
+    padding-bottom: 0;
+}
+
+.storeSection.sdd-section .section-content p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.storeSection.sdd-section .sameDayDeliveryResult{
+    margin-top: 20px;
+}
+
+.storeSection.sdd-section .sameDayDeliveryResult span.availability-text{
+    position: relative;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.storeSection.sdd-section .sameDayDeliveryResult span.availability-text svg{
+    position: absolute;
+    width: 27px;
+    height: auto;
+    left: 0px;
+    top: -3px;
+}
+
+.custom-loader {
+    animation: spin 1s infinite linear;
+    border: 2px solid rgba(30, 30, 30, 0.5);
+    border-left: 3px solid white;
+    border-radius: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 30px;
+    margin: auto;
+}
+  
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.total-price .storeSection.sdd-section{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.total-price .storeSection.sdd-section .sameDayDeliveryResult span.availability-text-cart,
+.total-price .storeSection.sdd-section .sameDayDeliveryResult span.availability-text{
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.total-price .storeSection.sdd-section .sameDayDeliveryResult span.availability-text-cart svg,
+.total-price .storeSection.sdd-section .sameDayDeliveryResult span.availability-text svg{
+    width: 22px;
+    top: -5px;
+}
+
+span.sdd-cart-availability {
+    font-size: 13px;
+    margin-left: 5px;
+    padding-left: 8px;
+    position: relative;
+}
+
+span.sdd-cart-availability::before {
+    content: "|";
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    color:#333333;
+}
+
+@media(max-width: 800px){
+    .storeSection.sdd-section{
+        margin-left: 0!important;
+    }
+}
+
+button.button.button--primary.sameday{
+    background: transparent!important;
+    border-color: #e2383f!important;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #000000;
+}
+button#click-and-collect-checkout-samedaydelivery-button[disabled] {
+    color: #ffffff!important;
+    background-color: #e2383f!important;
+    border-color: #e2383f;
+}
+
+div#sameDayDelivery{
+    margin-left: 4.19231rem;
+}
+
+a.button.button--primary.confirmSameDayDelivery.optimizedCheckout-buttonPrimary{
+    margin-top: 3rem;
+}
+
+.swal2-styled.swal2-deny{
+    text-align: center;
+    margin: 15px auto;
+    width: 95%;
+    margin-bottom: 0;
+}
+
+span.availability-text-cart{
+    position: relative;
+}
+span.availability-text-cart svg{
+    position: absolute;
+    left: 0;
+}
+span.availability-text-cart svg.click-and-collect-available-icon {
+    top: -19px!important;
+}
+.total-price .storeSection.sdd-section .sameDayDeliveryResult span.availability-text-cart svg.click-and-collect-available-icon {
+    position: absolute;
+    top: -19px;
+}
+
+button.swal2-confirm.swal2-styled{
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+}
+
+div#FormField_29,
+div#FormField_31,
+div#FormField_33
+{
+    display: none;
+}
+
+.storeSection.sdd-section .sameDayDeliveryResult span.availability-text svg{
+    top: -3px;
+}
+
+.storeSection.sdd-section p.variantAvailability{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    margin-top: 0px;
+}
